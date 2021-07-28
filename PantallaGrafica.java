@@ -19,8 +19,8 @@ public class PantallaGrafica
         for(i=0; i<cantidadTerrenos; i++)
         {
             String forma = JOptionPane.showInputDialog(null, "Digite la forma del terreno (rectangular, triangular o trapezoidal) " + (i+1));
-            double largo = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite el largo del terreno " + (i+1)));
-            double ancho = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite el ancho del terreno " + (i+1)));
+            double largo = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite el largo del terreno numero " + (i+1)));
+            double ancho = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite el ancho del terreno numero " + (i+1)));
             String sector = JOptionPane.showInputDialog(null, "Digite el sector del terreno (urbano o rural) " + (i+1));
             
             if(forma.toLowerCase().equals("rectangular"))
